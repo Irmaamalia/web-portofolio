@@ -2,16 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>MY PORTOFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand f-3 fw-bold" href="#">Irmaliyatil Amalia</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="home" class="home container">
+        <div class="row d-flex align-items-center">
+          <div class="col-8">
+            <h3 class="fw-semibold">Assalamualaikum wr. wb. halo saya</h3>
+            <h1 class="fw-bold">Irmaliyatil Amalia</h1>
+            <p>Welcom to my website portofolio</p>
+            <a class="btn" href="images/RESUME1.png" download>Resume 1</a>
+            <a class="btn" href="images/RESUME2.png" download>Resume 2</a>
+          </div>
+          <div class="col-4">
+            <img src="images/irma.png" alt="my picture">
+          </div>
+        </div>
+        <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
+            <a class="text-decoration-none text-dark" href="#about">More Info</a>
+            <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow icon">
+        </div>
+      </section>
+      <section id="about" class="about container mt-5">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center mt-3">Irmaliyatil Amalia is a passionate full stack developer with a background in creating dynamic and responsive web applications. With a keen eye for detail and a commitment to continuous learning, Irmaliyatil is dedicated to delivering high-quality code and innovative solutions.</p>
+      </section>
+      <section id="contact" class="contact container mt-5">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="d-flex justify-content-center mt-3">
+          <a href="https://youtube.com/@etizy1959?si=A6mExseygGFCNAXV" class="text-dark me-3" target="_blank">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/irmaliyatil-amalia-a62846292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-dark me-3" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/this_izy?igsh=eXcydnBhcWV5OGhu" class="text-dark me-3" target="_blank">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://github.com/Irmaamalia?tab=overview&from=2024-06-01&to=2024-06-30" class="text-dark" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

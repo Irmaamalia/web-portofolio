@@ -1,0 +1,55 @@
+body {
+    padding-top: 80px; /* agar header tetap diatas */
+}
+section {
+    padding-top: 128px; /*jarak atas antara teks h1 irma dengan header*/
+}
+.col-4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* untuk membuat gambar berbentuk bulat */
+    padding-top: 20px;
+}
+.btn {
+    border: 3px solid black;
+    border-radius: 24px;
+}
+.btn:hover { /* animasi ketika kursor diarahkan ke */
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+.navbar { /* navigasi */
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba( 0, 0, 0, 0.25);
+    position: fixed;
+     top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* berubah warba ketika kersor diarahkan */
+}
+.home h1 {
+    font-size: 72px;
+}
+.home h3 {
+    font-size: 40px;
+}
+.home .arrow img {
+    width: 60px;
+}
+#arrow { /* animasi more info */
+    animation: 2s upDown infinite;
+}
+@keyframes upDown { /* animasi more info */
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
