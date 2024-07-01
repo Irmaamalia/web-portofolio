@@ -4,7 +4,8 @@ body {
 section {
     padding-top: 128px; /*jarak atas antara teks h1 irma dengan header*/
 }
-.col-4 img {
+
+#home img {
     max-width: 100%;
     height: auto;
     border-radius: 50%; /* untuk membuat gambar berbentuk bulat */
@@ -51,5 +52,58 @@ section {
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    #home .row {
+        flex-direction: column;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    #home .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    
+    #home img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    #home h1 {
+        font-size: 1.8rem;
+    }
+
+    #home p {
+        font-size: 0.9rem;
+    }
+
+    #home .btn {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+    
+    #home img {
+        max-width: 250px;
+        margin-top: 50px;
+        border-radius: 190px;
+
     }
 }
